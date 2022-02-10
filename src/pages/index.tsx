@@ -1,11 +1,5 @@
-import Something from '../something/index';
-import { Base } from '../templates/Base';
+import Something from '../views/Home';
 
-const Index = () => (
-  <div>
-    <Base />
-    <Something />
-  </div>
-);
+const Index = () => <Something />;
 
 export default Index;
