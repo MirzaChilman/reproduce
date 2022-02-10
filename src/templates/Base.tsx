@@ -1,5 +1,5 @@
-import { Meta } from '../layout/Meta';
-import { AppConfig } from '../utils/AppConfig';
+import { Meta } from '@layout/Meta';
+import { AppConfig } from '@utils/AppConfig';
 
 const Base = () => (
   <div className="antialiased text-gray-600">
