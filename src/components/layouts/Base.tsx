@@ -1,4 +1,4 @@
-import { Meta } from '@layout/Meta';
+import { Meta } from '@layouts/Meta';
 import { AppConfig } from '@utils/AppConfig';
 
 const Base = () => (

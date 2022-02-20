@@ -1,4 +1,4 @@
-import Something from '../views/Home';
+import Something from '@views/Home';
 
 const Index = () => <Something />;
 
