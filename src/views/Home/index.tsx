@@ -1,11 +1,14 @@
 /* This example requires Tailwind CSS v2.0+ */
 
+import Navbar from '@components/molecules/Navbar';
+
 import { Base } from '../../components/layouts/Base';
 import { RESPONSE } from '../../models';
 
 export default function Example(props: RESPONSE) {
   return (
     <>
+      <Navbar />
       <Base />
       <div className="py-12 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
