@@ -16,11 +16,18 @@
   "dependencies": {
     "@tailwindcss/line-clamp": "^0.3.1",
     "classnames": "^2.3.1",
+    "image-trace-loader": "^1.0.2",
+    "imagemin-optipng": "^8.0.0",
+    "imagemin-svgo": "^10.0.1",
     "next": "^12.0.9",
+    "next-compose-plugins": "^2.2.1",
+    "next-optimized-images": "^2.6.2",
     "next-seo": "^4.29.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
-    "styled-jsx-plugin-postcss": "^4.0.1"
+    "responsive-loader": "^2.3.0",
+    "styled-jsx-plugin-postcss": "^4.0.1",
+    "webp-loader": "^0.6.0"
   },
   "devDependencies": {
     "@next/bundle-analyzer": "^12.0.9",

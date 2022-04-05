@@ -40,7 +40,7 @@ const OtherCard = ({
             {description}
           </p>
         </div>
-        <Link href={url}>
+        <Link passHref href={url}>
           <span
             className={`mt-2 lg:mt-6 text-blue-ribbon text-xs lg:text-sm font-bold inline-flex items-center ${urlTextColor}`}
           >
