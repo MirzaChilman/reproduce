@@ -43,6 +43,10 @@ jobs:
       run: npm install
     
     - name: build for prod
+      env:
+         NEXT_PUBLIC_CONTENT_API_KEY: ${{secrets.NEXT_PUBLIC_CONTENT_API_KEY}}
+         NEXT_PUBLIC_ADMIN_API_KEY: ${{secrets.NEXT_PUBLIC_ADMIN_API_KEY}}
+         NEXT_PUBLIC_BASE_URL: ${{secrets.NEXT_PUBLIC_BASE_URL}}
       run: npm run build
     
     - name: Deploy 🚀
