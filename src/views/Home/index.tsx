@@ -27,7 +27,7 @@ export default function Example(props: RESPONSE) {
 
           <div className="mt-10">
             <dl className="space-y-10 md:space-y-0 md:grid md:grid-cols-2 md:gap-x-8 md:gap-y-10">
-              {props.posts.map((post) => (
+              {props?.posts?.map((post) => (
                 <div key={post.id} className="relative">
                   <dt>
                     <div className="absolute flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">

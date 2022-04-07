@@ -5,7 +5,7 @@ import { RESPONSE } from '../models';
 
 export async function getStaticProps() {
   const result = await fetch(
-    `${process.env.NEXT_PUBLIC_BASE_URL}/ghost/api/v3/content/posts/?key=${process.env.NEXT_PUBLIC_CONTENT_API_KEY}`
+    `${process.env.NEXT_PUBLIC_BASE_URL}/ghost/api/v3/content/posts?key=${process.env.NEXT_PUBLIC_CONTENT_API_KEY}`
   );
   const data = await result.json();
 
